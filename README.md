@@ -122,7 +122,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
 - Shows all nearby places on an interactive map.
 - Users can tap a location to view detailed information, directions, and ratings.
 
-![Map View](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-5.png)
+  ![Map View Interface](https://firebasestorage.googleapis.com/v0/b/miolms.firebasestorage.app/o/TICAP20_IEEE%2Fassets%2Fmanilaave-5.png?alt=media&token=aef799b9-83cc-4794-88aa-1d39f7326544)
 
 ---
 
@@ -134,7 +134,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Address
   - Rating
 
-![Places Detail]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-6.png))
+![Places Detail](https://firebasestorage.googleapis.com/v0/b/miolms.firebasestorage.app/o/TICAP20_IEEE%2Fassets%2Fmanilaave-6.png?alt=media&token=60ecc922-745b-491f-89a9-8760829e7b50)
 
 ---
 
@@ -146,7 +146,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Hidden Gems
   - Markets
 
-![Category Screen]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-7.png))
+![Category Screen](https://firebasestorage.googleapis.com/v0/b/miolms.firebasestorage.app/o/TICAP20_IEEE%2Fassets%2Fmanilaave-7.png?alt=media&token=7c237d4e-1c6e-42d5-bf65-609442113fca)
 
 ---
 
@@ -154,18 +154,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
 - Shows user information, bio, and account details.
 - Users can edit their profile, upload posts, and manage content.
 
-![User Profile]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-7.png))
-
----
-
-### ✏️ Edit Profile
-- Allows users to update:
-  - Profile Picture
-  - Cover Photo
-  - Name
-  - Bio
-
-![Edit Profile]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-8.png))
+![User Profile](https://firebasestorage.googleapis.com/v0/b/miolms.firebasestorage.app/o/TICAP20_IEEE%2Fassets%2Fmanilaave-8.png?alt=media&token=9a18f613-af58-480b-92e0-d5e67d10ab79)
 
 ---
 
@@ -173,7 +162,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
 - Users can create and edit posts with titles and captions.
 - Posts appear on their profile for other users to view.
 
-![Post Management]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-9.png))
+![Post Management](https://firebasestorage.googleapis.com/v0/b/miolms.firebasestorage.app/o/TICAP20_IEEE%2Fassets%2Fmanilaave-9.png?alt=media&token=bffa73c8-381c-402f-9edd-247490dd0631)
 
 ---
 
