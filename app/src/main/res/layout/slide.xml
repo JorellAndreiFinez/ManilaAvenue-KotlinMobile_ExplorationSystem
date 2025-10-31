@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center"
+    android:background="@drawable/onboarding1"
+    android:padding="16dp"
+    android:scaleType="center"
+    android:id="@+id/sliderImage"
+    >
+
+<!--    <ImageView-->
+<!--        android:id="@+id/sliderImage"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="12dp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:background="@drawable/imageview_bg"-->
+<!--        android:src="@drawable/onboarding1"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/sliderTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:fontFamily="@font/montserrat_black"-->
+<!--        android:text="@string/message1"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="@color/Green"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/sliderDesc"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="30dp"-->
+<!--        android:text="@string/submessage1"-->
+<!--        android:textColor="@color/LightBlack"-->
+<!--        android:fontFamily="@font/montserrat"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="20sp"/>-->
+
+</LinearLayout>

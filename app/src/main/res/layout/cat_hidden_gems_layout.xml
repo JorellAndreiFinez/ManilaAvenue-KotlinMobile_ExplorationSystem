@@ -1,0 +1,9 @@
+<!-- Example of category detail activity layout (category_details_resto.xml) -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hidden_gems_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Your layout content for "Resto" category -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

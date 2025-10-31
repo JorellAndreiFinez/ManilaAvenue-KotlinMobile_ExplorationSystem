@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1036647119864",
+    "project_id": "manilaavenue-87263",
+    "storage_bucket": "manilaavenue-87263.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036647119864:android:f17d8a73b5057c936ef40d",
+        "android_client_info": {
+          "package_name": "com.example.manilaavenue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036647119864-ll4m18rsg59g3s3shauf0dlqn6acdm72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manilaavenue",
+            "certificate_hash": "32dcf89e67f13bf4aa51796f5a4946f2bae8a6c1"
+          }
+        },
+        {
+          "client_id": "1036647119864-h6rkml5squtiua06qvjl9tptgbjl7k2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVuJcaUe3XF6Q4HMyJRvKnIpfd6Tctomw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036647119864-h6rkml5squtiua06qvjl9tptgbjl7k2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

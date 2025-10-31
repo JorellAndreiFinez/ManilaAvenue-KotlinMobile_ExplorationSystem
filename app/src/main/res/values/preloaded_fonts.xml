@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bungee_shade</item>
+        <item>@font/carter_one</item>
+        <item>@font/faster_one</item>
+        <item>@font/modak</item>
+        <item>@font/monoton</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_extralight</item>
+    </array>
+</resources>

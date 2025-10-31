@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ManilaAvenue</string>
+    <string name="mainlogo">MainLogo</string>
+    <string name="loadingbar">LoadingBar</string>
+    <string name="jeepney">Jeepney</string>
+    <string name="next">Next</string>
+
+    <string name="message1">Welcome to Manila Avenue</string>
+    <string name="message2">Discover the Hidden Gems of Manila</string>
+    <string name="message3">Your Manila Adventure Begins</string>
+
+    <string name="submessage1">Explore the Heart of Manila\'s Culture</string>
+    <string name="submessage2">Uncover Manila\'s Best-Kept Secrets</string>
+    <string name="submessage3">Navigate the City with Local Insights</string>
+    <string name="defaul_web_client_id">9864-ll4m18rsg59g3s3shauf0dlqn6acdm72.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="search_options">
+        <item>Title</item>
+        <item>Location</item>
+        <item>Category</item>
+    </string-array>
+
+</resources>

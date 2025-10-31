@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AccountSettingsActivity"
+    android:background="@drawable/account_settings"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Toolbar
+            android:id="@+id/profile_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/Green">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/close_profile_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_close_cross"
+                    app:layout_constraintEnd_toStartOf="@+id/textView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="17dp"
+                    android:maxLines="1"
+                    android:text="SETTINGS"
+                    android:textColor="@color/Yellow"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/close_profile_btn"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/delete_account_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="24dp"
+                    android:layout_marginTop="1dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/grey_circle_bg"
+                    android:padding="5dp"
+                    android:src="@drawable/baseline_delete_forever_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:id="@+id/change_cover_image_btn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/baseline_create_24"
+        android:elevation="100dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:text="CHANGE COVER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cover_image_view_profile_frag" />
+
+    <ImageView
+        android:id="@+id/cover_image_view_profile_frag"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_bar_layout_profile" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_view_profile_frag"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="175dp"
+        android:src="@drawable/ic_testicon"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_bar_layout_profile" />
+
+    <TextView
+        android:id="@+id/change_image_text_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="CHOOSE NEW PROFILE IMAGE"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_image_view_profile_frag" />
+
+    <EditText
+        android:id="@+id/full_name_profile_frag"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/LightKhaki"
+        android:hint="Enter Full Name"
+        android:textColor="@color/white"
+        android:background="@drawable/edittxtbg"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change_image_text_btn" />
+
+    <EditText
+        android:id="@+id/username_profile_frag"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Enter Username"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/LightKhaki"
+        android:textColor="@color/white"
+        android:background="@drawable/edittxtbg"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/full_name_profile_frag" />
+
+    <EditText
+        android:id="@+id/email_profile_frag"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Enter Email Address"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/LightKhaki"
+        android:textColor="@color/white"
+        android:background="@drawable/edittxtbg"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username_profile_frag" />
+
+    <EditText
+        android:id="@+id/bio_profile_frag"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Enter Bio"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/LightKhaki"
+        android:textColor="@color/white"
+        android:background="@drawable/edittxtbg"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_profile_frag" />
+
+    <Button
+        android:id="@+id/save_infor_profile_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="SAVE CHANGES"
+        android:background="@drawable/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bio_profile_frag" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg1"
+    tools:context=".activity.PlaceActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/greensection"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/yellow_bg"
+                android:orientation="vertical"
+                android:elevation="100px"
+                >
+
+                <ImageView
+                    android:id="@+id/backBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="24dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/montserrat_black"
+                    android:text="CATEGORY"
+                    android:id="@+id/categoryLabel"
+                    android:textSize="40sp" />
+
+            </LinearLayout>
+
+
+
+            <!-- 6 CATEGORY IMAGE BUTTONS -->
+
+            <HorizontalScrollView
+                android:id="@+id/categoryScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/categoryResto"
+                        android:layout_width="75dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/cat_1"
+                        android:background="@drawable/yellow_circle_bg"
+                        android:contentDescription="Resto"
+                        android:onClick="onCategoryClick" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/categoryPark"
+                        android:layout_width="75dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/cat_2"
+                        android:background="@drawable/yellow_circle_bg"
+                        android:contentDescription="Park"
+                        android:onClick="onCategoryClick" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/categoryMuseum"
+                        android:layout_width="75dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/cat_3"
+                        android:background="@drawable/yellow_circle_bg"
+                        android:contentDescription="Museum"
+                        android:onClick="onCategoryClick" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/categoryHiddenGems"
+                        android:layout_width="75dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/cat_4"
+                        android:background="@drawable/yellow_circle_bg"
+                        android:contentDescription="Hidden Gems"
+                        android:onClick="onCategoryClick" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/categoryMarket"
+                        android:layout_width="75dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/cat_6"
+                        android:background="@drawable/yellow_circle_bg"
+                        android:contentDescription="Market"
+                        android:onClick="onCategoryClick" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageButton
+                        android:id="@+id/categoryOthers"
+                        android:layout_width="75dp"
+                        android:scaleType="fitXY"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/cat_5"
+                        android:background="@drawable/yellow_circle_bg"
+                        android:contentDescription="Others"
+                        android:onClick="onCategoryClick" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="70dp">
+
+                <ProgressBar
+                    android:id="@+id/progressBarAllPlace"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/viewAllplace"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/viewAllplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:visibility="gone"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="@id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/green_bg2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <!-- Option 1: Explore -->
+                <LinearLayout
+                    android:id="@+id/optionExplore"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onExploreClick">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/btn_1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Explore"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <!-- Option 2: Place -->
+                <LinearLayout
+                    android:id="@+id/optionPlace"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onPlaceClick">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/btn_2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Place"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <!-- Option 3: Favorites -->
+                <LinearLayout
+                    android:id="@+id/optionFavorites"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onFavoritesClick">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/btn_3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Favorites"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <!-- Option 4: Blog -->
+                <LinearLayout
+                    android:id="@+id/optionBlog"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onBlogClick">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/btn_4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Blog"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <!-- Option 5: Account -->
+                <LinearLayout
+                    android:id="@+id/optionAccount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onAccountClick">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/btn_5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Account"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

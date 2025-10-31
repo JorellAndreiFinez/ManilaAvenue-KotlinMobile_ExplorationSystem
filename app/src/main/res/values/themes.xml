@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ManilaAvenue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    !-- Custom style for TextInputLayout -->
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/Green</item>
+        <item name="errorTextColor">@color/Red</item>
+        <item name="helperTextTextColor">@color/grey</item>
+        <item name="hintTextColor">@color/grey</item>
+        <item name="boxStrokeErrorColor">@color/Red</item>
+        <item name="boxBackgroundMode">none</item>
+    </style>
+
+    <style name="Theme.ManilaAvenue" parent="Base.Theme.ManilaAvenue" />
+</resources>
