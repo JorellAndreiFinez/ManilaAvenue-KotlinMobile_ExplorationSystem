@@ -83,7 +83,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
 - The first screen users see when launching the app.
 - Provides options for signing up, logging in, or exploring as a guest.
 
-![Main Screen](INSERT_IMAGE_HERE)
+![Main Screen](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-1a.jpg)
 
 ---
 
@@ -94,7 +94,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Password
   - Confirm Password
 
-![Signup Screen](INSERT_IMAGE_HERE)
+![Signup Screen](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-2a.jpg.png)
 
 ---
 
@@ -103,7 +103,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Email Address
   - Password
 
-![Login Screen](INSERT_IMAGE_HERE)
+![Login Screen](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-3a.png)
 
 ---
 
@@ -114,7 +114,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Feature of the Day
   - Type of Filipino Spots
 
-![Home Interface](INSERT_IMAGE_HERE)
+![Home Interface](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-4a.png)
 
 ---
 
@@ -122,7 +122,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
 - Shows all nearby places on an interactive map.
 - Users can tap a location to view detailed information, directions, and ratings.
 
-![Map View](INSERT_IMAGE_HERE)
+![Map View](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-5.png)
 
 ---
 
@@ -134,7 +134,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Address
   - Rating
 
-![Places Detail](INSERT_IMAGE_HERE)
+![Places Detail]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-6.png))
 
 ---
 
@@ -146,7 +146,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Hidden Gems
   - Markets
 
-![Category Screen](INSERT_IMAGE_HERE)
+![Category Screen]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-7.png))
 
 ---
 
@@ -154,7 +154,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
 - Shows user information, bio, and account details.
 - Users can edit their profile, upload posts, and manage content.
 
-![User Profile](INSERT_IMAGE_HERE)
+![User Profile]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-7.png))
 
 ---
 
@@ -165,7 +165,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Name
   - Bio
 
-![Edit Profile](INSERT_IMAGE_HERE)
+![Edit Profile]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-8.png))
 
 ---
 
@@ -173,15 +173,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
 - Users can create and edit posts with titles and captions.
 - Posts appear on their profile for other users to view.
 
-![Post Management](INSERT_IMAGE_HERE)
-
----
-
-### 🔄 Logout & Login
-- Provides secure logout functionality.
-- Returns users to the main screen after logging out.
-
-![Logout & Login](INSERT_IMAGE_HERE)
+![Post Management]([INSERT_IMAGE_HERE](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ManilaAve/manilaave-9.png))
 
 ---
 
