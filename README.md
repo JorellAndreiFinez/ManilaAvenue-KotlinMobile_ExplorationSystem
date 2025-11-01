@@ -122,7 +122,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
 - Shows all nearby places on an interactive map.
 - Users can tap a location to view detailed information, directions, and ratings.
 
-  ![Map View Interface](https://firebasestorage.googleapis.com/v0/b/miolms.firebasestorage.app/o/TICAP20_IEEE%2Fassets%2Fmanilaave-5.png?alt=media&token=aef799b9-83cc-4794-88aa-1d39f7326544)
+  ![Map View Interface](./manilaave-5.png)
 
 ---
 
@@ -146,7 +146,7 @@ The following screenshots and descriptions illustrate the key interfaces of **Ma
   - Hidden Gems
   - Markets
 
-![Category Screen](https://firebasestorage.googleapis.com/v0/b/miolms.firebasestorage.app/o/TICAP20_IEEE%2Fassets%2Fmanilaave-7.png?alt=media&token=7c237d4e-1c6e-42d5-bf65-609442113fca)
+![Category Screen](./manilaave-7.png)
 
 ---
 
